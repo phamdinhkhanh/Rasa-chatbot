@@ -49,7 +49,73 @@
 - extremely sad
 - so sad
 
-## intent: de_xuat_mua_laptop_chi_tiet
+## intent: mua_laptop_thuong_hieu
+- Tôi muốn mua laptop [brands_laptop](brand_config).
+- Mình muốn mua laptop [brands_laptop](brand_config).
+- Bạn có bán laptop [brands_laptop](brand_config) không?
+- Shop có bán laptop [brands_laptop](brand_config) không?
+- Cho tôi xem laptop [brands_laptop](brand_config).
+- Laptop [brands_laptop](brand_config) còn hàng không?
+- Shop có bán laptop [brands_laptop](brand_config) không?
+- Shop có bán laptop thương hiệu [brands_laptop](brand_config) không?
+- Laptop thương hiệu [brands_laptop](brand_config) còn hàng không?
+- Cho mình xem các laptop của [brands_laptop](brand_config).
+- Mình muốn xem các laptop của [brands_laptop](brand_config).
+- Mình đang tìm laptop của [brands_laptop](brand_config).
+- Tôi đang cần mua laptop của [brands_laptop](brand_config).
+- Tôi đang cần sắm laptop của [brands_laptop](brand_config).
+- Mình đang cần mua laptop của [brands_laptop](brand_config).
+
+## intent: mua_laptop_the_he
+- Tôi muốn mua laptop [cores](core_config).
+- Mình muốn mua laptop [cores](core_config).
+- Bạn có bán laptop [cores](core_config) không?
+- Shop có bán laptop [cores](core_config) không?
+- Cho tôi xem laptop [cores](core_config).
+- Laptop [cores](core_config) còn hàng không?
+- Shop có bán laptop [cores](core_config) không?
+- Shop có bán laptop [cores](core_config) không?
+- Laptop thương hiệu [cores](core_config) còn hàng không?
+- Cho mình xem các laptop [cores](core_config).
+- Mình muốn xem các laptop [cores](core_config).
+- Mình đang tìm laptop [cores](core_config).
+- Tôi đang cần mua laptop [cores](core_config).
+- Tôi đang cần sắm laptop [cores](core_config).
+- Mình đang cần mua laptop [cores](core_config).
+
+
+## intent: mua_laptop_o_cung
+- Tôi muốn mua laptop [mems](mems_config).
+- Mình muốn mua laptop [mems](mems_config).
+- Bạn có bán laptop [mems](mems_config) không?
+- Shop có bán laptop [mems](mems_config) không?
+- Cho tôi xem laptop [mems](mems_config).
+- Laptop [mems](mems_config) còn hàng không?
+- Shop có bán laptop [mems](mems_config) không?
+- Shop có bán laptop [mems](mems_config) không?
+- Laptop thương hiệu [mems](mems_config) còn hàng không?
+- Cho mình xem các laptop [mems](mems_config).
+- Mình muốn xem các laptop [mems](mems_config).
+- Mình đang tìm laptop [mems](mems_config).
+- Tôi đang cần mua laptop [mems](mems_config).
+- Tôi đang cần sắm laptop [mems](mems_config).
+- Mình đang cần mua laptop [mems](mems_config).
+- Tôi muốn mua ổ cứng [mems](mems_config).
+- Mình muốn mua ổ cứng [mems](mems_config).
+- Bạn có bán ổ cứng [mems](mems_config) không?
+- Shop có bán ổ cứng [mems](mems_config) không?
+- Cho tôi xem ổ cứng [mems](mems_config).
+- ổ cứng [mems](mems_config) còn hàng không?
+- Shop có bán ổ cứng [mems](mems_config) không?
+- Shop có bán ổ cứng [mems](mems_config) không?
+- Cho mình xem các ổ cứng [mems](mems_config).
+- Mình muốn xem các ổ cứng [mems](mems_config).
+- Mình đang tìm ổ cứng [mems](mems_config).
+- Tôi đang cần mua ổ cứng [mems](mems_config).
+- Tôi đang cần sắm ổ cứng [mems](mems_config).
+- Mình đang cần mua ổ cứng [mems](mems_config).
+
+## intent: de_xuat_mua_laptop_ram
 - Tôi muốn mua laptop [rams](ram_config) RAM 
 - Tôi muốn mua laptop [ram values](ram_config:ram) RAM
 - Tôi cần mua laptop [ram](ram_config) RAM
@@ -109,6 +175,15 @@
 - 8GB
 - 16GB
 - 32GB
+
+## lookup: brands_laptop
+- dell
+- asus
+- apple
+- lenovo
+- hp
+- toshiba
+- sony
 
 ## lookup: cores
 - dual core

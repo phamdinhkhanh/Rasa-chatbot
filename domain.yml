@@ -1,0 +1,63 @@
+intents:
+  - greet
+  - goodbye
+  - affirm
+  - deny
+  - mood_great
+  - mood_unhappy
+  - hoi_mat_hang
+  - hoi_cau_hinh
+  - hoi_bao_hanh
+  - hoi_khuyen_mai
+  - hoi_nha_san_xuat
+
+actions:
+- utter_greet
+- utter_cheer_up
+- utter_did_that_help
+- utter_happy
+- utter_goodbye
+- utter_hoi_mat_hang
+- utter_hoi_cau_hinh
+- utter_hoi_bao_hanh
+- utter_hoi_khuyen_mai
+- utter_hoi_nha_san_xuat
+- utter_de_xuat_nhu_cau
+
+templates:
+  utter_greet:
+  - text: "Hey! How are you?"
+
+  utter_cheer_up:
+  - text: "Here is something to cheer you up:"
+    image: "https://i.imgur.com/nGF1K8f.jpg"
+
+  utter_did_that_help:
+  - text: "Did that help you?"
+
+  utter_happy:
+  - text: "Great carry on!"
+
+  utter_goodbye:
+  - text: "Bye"
+  
+  utter_de_xuat_nhu_cau:
+  - text: "Bạn muốn mua laptop gì?"
+  
+  utter_hoi_mat_hang:
+  - text: "Sản phẩm laptop hiện tại còn 1 mặt hàng. Bạn đồng ý mua chứ?" #Action tìm kiếm sản phẩm trên internet và trả về kết quả bao nhiêu mặt hàng.
+  
+  utter_hoi_cau_hinh:
+  - text: "Cấu hình của sản phẩm là RAM 16GB, Ổ cứng SSD 500GB, Core i7 thế hệ thứ 5" #Action tìm kiếm thông số sản phẩm và trả về từ internet. 
+  
+  utter_hoi_bao_hanh:
+  - text: "Sản phẩm bảo hành 12 tháng phần cứng, trọn đời đối với phần mềm" #Action tìm chính sách bảo hành
+  
+  utter_hoi_khuyen_mai:
+  - text: "Chương trình khuyến mãi bạn vui lòng xem tại: https://www.adayroi.com/laptop-dell-inspiron-n3576e-15-6-inches-den-p-1903582"
+    image: "https://media.static-adayroi.com/sys_master/h77/h9a/16124673916958.jpg"
+    
+  utter_hoi_nha_san_xuat:
+  - text: "Nhà sản xuất là dell bạn nhé. Hỏi ngu thế"
+  
+  
